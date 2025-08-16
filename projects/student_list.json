@@ -1,0 +1,1196 @@
+{
+    "BSR/5212/25": {
+        "student_id": "AAB/0512/20",
+        "first_name": "ABAY",
+        "second_name": "ALENE",
+        "last_name": "BIRESAW",
+        "registration_year": "2025-03-20",
+        "school_info": {
+            "university_name": "Addis Ababa University",
+            "college": "College of Natural and Computational Sciences"
+        },
+        "birth_date": "2005-09-10",
+        "age": 20,
+        "gender": "MALE",
+        "email": "abay.alene@gmail.com",
+        "login_credentials": {
+            "username": "AAB/0512/20",
+            "password": "$2b$12$ElUyzDKgmtAf5xx0w11dTuq/OeuhYBDBjHJAWAvu8IUNNUSBGXWgm"
+        },
+        "nationality": "ETHIOPIA",
+        "phone_number": "+251923546345",
+        "contact_info": {
+            "first_name_contact_person": "ASFAW",
+            "last_name_contact_person": "BIRESAW",
+            "phone number": "+251932632264",
+            "email": "asfaw.alene@gmail.com"
+        },
+        "address": {
+            "region": "AMHARA",
+            "city": "INJIBARA",
+            "sub_city": "INJIBARA",
+            "woreda": "BANJA",
+            "kebele": "04",
+            "house_number": "594",
+            "street": "KING GEORGE VI STREET"
+        },
+        "marital_status": "SINGLE",
+        "languages": [
+            "AMHARIC",
+            "AWIGNA",
+            "ENGLISH"
+        ],
+        "memberships": [
+            ""
+        ],
+        "scholarship": "FULL",
+        "parents": [
+            "ALENE BIRESAW",
+            " AYEHUSH ALEMU"
+        ],
+        "degrees": {
+            "Bachelor of Science": 0
+        },
+        "bachelor of science": {
+            "computer science": {
+                "Year 1": {
+                    "Semester 1": {
+                        "semester_average": 0,
+                        "cumulative_average": 0,
+                        "department": "computer science"
+                    },
+                    "Semester 2": {
+                        "semester_average": 0,
+                        "cumulative_average": 0,
+                        "department": "computer science"
+                    }
+                },
+                "Year 2": {
+                    "Semester 1": {
+                        "semester_average": 0,
+                        "cumulative_average": 0,
+                        "department": "computer science"
+                    },
+                    "Semester 2": {
+                        "semester_average": 0,
+                        "cumulative_average": 0,
+                        "department": "computer science"
+                    }
+                },
+                "Year 3": {
+                    "Semester 1": {
+                        "semester_average": 0,
+                        "cumulative_average": 0,
+                        "department": "computer science"
+                    },
+                    "Semester 2": {
+                        "semester_average": 0,
+                        "cumulative_average": 0,
+                        "department": "computer science"
+                    }
+                },
+                "Year 4": {
+                    "Semester 1": {
+                        "semester_average": 0,
+                        "cumulative_average": 0,
+                        "department": "computer science"
+                    },
+                    "Semester 2": {
+                        "semester_average": 0,
+                        "cumulative_average": 0,
+                        "department": "computer science"
+                    }
+                }
+            }
+        }
+    },
+    "MSR/9371/19": {
+        "student_id": "DSC/9371/19",
+        "first_name": "DERESE",
+        "second_name": "SMENEH",
+        "last_name": "CHALACHEWW",
+        "registration_year": "2025-07-19",
+        "school_info": {
+            "university_name": "Metu",
+            "college": "Health Science College"
+        },
+        "birth_date": "1990-10-12",
+        "age": 35,
+        "gender": "MALE",
+        "email": "derese.smeneh@gmail.com",
+        "login_credentials": {
+            "username": "DSC/9371/19",
+            "password": "$2b$12$8VeVFdJhHOExkoqLuKIzZ.eUQddXHuAiF8qcJAWuBqJt02eIF875e"
+        },
+        "nationality": "ETHIOPIA",
+        "phone_number": "+251934563396",
+        "contact_info": {
+            "first_name_contact_person": "KEBEDE ALEMU",
+            "last_name_contact_person": "BITEW",
+            "phone number": "+251932493920",
+            "email": "kebede.bitew@gmail.com"
+        },
+        "address": {
+            "region": "AMHARA",
+            "city": "INJIBARA",
+            "sub_city": "INJIBARA",
+            "woreda": "ANKESHA",
+            "kebele": "SIKUI",
+            "house_number": "NEW",
+            "street": "1000"
+        },
+        "marital_status": "SINGLE",
+        "languages": [
+            "AMHARIC",
+            "AWIGNA",
+            "ENGLISH"
+        ],
+        "memberships": [
+            "EOTC",
+            "CBE"
+        ],
+        "scholarship": "SELF-FUNDED",
+        "parents": [
+            "SMENEH ABEJE",
+            "BELETECH BELAY"
+        ],
+        "degrees": {
+            "Bachelor of Science": 0
+        },
+        "Masters Degrees": {
+            "midwifery": {
+                "Year 1": {
+                    "Semester 1": {
+                        "semester_average": 0,
+                        "cumulative_average": 0,
+                        "department": "midwifery"
+                    },
+                    "Semester 2": {
+                        "semester_average": 0,
+                        "cumulative_average": 0,
+                        "department": "midwifery"
+                    }
+                },
+                "Year 2": {
+                    "Semester 1": {
+                        "semester_average": 0,
+                        "cumulative_average": 0,
+                        "department": "midwifery"
+                    },
+                    "Semester 2": {
+                        "semester_average": 0,
+                        "cumulative_average": 0,
+                        "department": "midwifery"
+                    }
+                }
+            }
+        }
+    },
+    "BSR/5434/10": {
+        "first_name": "Mulat",
+        "second_name": "Yazew",
+        "last_name": "Chekol",
+        "age": 19,
+        "gender": "Male",
+        "birth_date": "1997-01-26",
+        "email": "mul.ya234@gmail.com",
+        "phone number": "+251989932345",
+        "login_credentials": {
+            "username": "MYC/5434/10",
+            "password": "$2b$12$uG0vcQ6V60MrzhK9TuYEhe.gVSUN1bxrTz4hdoD63gykw7eEzvQ0u"
+        },
+        "contact_info": {
+            "first_name_contact_person": "Asfaw Yenealem",
+            "last_name_contact_person": "Biresaw",
+            "phone number": "+251926384984",
+            "email": "asfaw.yene@gmail.com"
+        },
+        "address": {
+            "region": "Addis Ababa",
+            "city": "Addis Ababa",
+            "sub_city": "Bole",
+            "woreda": "Woreda 12",
+            "kebele": "Kebele 03",
+            "house_number": "HNo. 45",
+            "street": "Bole Medhanealem"
+        },
+        "nationality": "Ethiopian",
+        "languages": [
+            "Amharic",
+            "Awigna",
+            "English",
+            "Ge'ez"
+        ],
+        "Member": [
+            "ESSS",
+            "SoTA",
+            "EEEA"
+        ],
+        "scholarship": [
+            "full"
+        ],
+        "parents": [
+            "Yazew Chekol Guadie",
+            "Azeneg Kassa Zeru"
+        ],
+        "marital status": "single",
+        "registration_year": "2024-10-10",
+        "graduation_year": "2021-10-10",
+        
+        "School_info": {
+            "university_name": "Addis Ababa univesity",
+            "college": "Addis Ababa Institute of Technology"
+        },
+        "degrees": {
+            "Bachelor of Science": 0
+        },
+
+        "dropped_courses": [],
+
+        "bachelor of science": {
+            "type_of_registration": "Regular",
+            "Electrical and Computer Engineering": {
+                "Year 1": {
+                    "Semester 1": {
+                        "semester_average": 4.0,
+                        "cumulative_average": 4.0,
+                        "department": "Admitted To Pre-Engineering",
+                        "Applied Mathematics I": {
+                            "ects": 7,
+                            "score": 95,
+                            "grade": "A+"
+                        },
+                        "Introduction to Engineering Profession": {
+                            "ects": 2,
+                            "score": 88,
+                            "grade": "A"
+                        },
+                        "Engineering Drawing": {
+                            "ects": 6,
+                            "score": 85,
+                            "grade": "A"
+                        },
+                        "Communicative English": {
+                            "ects": 5,
+                            "score": 90,
+                            "grade": "A"
+                        },
+                        "Engineering Mechanics I (Statics)": {
+                            "ects": 6,
+                            "score": 85,
+                            "grade": "A+"
+                        },
+                        "Civics and Ethical Education": {
+                            "ects": 5,
+                            "score": 90,
+                            "grade": "A+"
+                        }
+                    },
+                    "Semester 2": {
+                        "semester_average": 0,
+                        "cumulative_average": 0,
+                        "department": "Transfered To Electrical and Computer Engineering",
+                        "Electrical Engineering Lab I": {
+                            "ects": 2,
+                            "score": 0,
+                            "grade": ""
+                        },
+                        "Introduction to Logic": {
+                            "ects": 5,
+                            "score": 0,
+                            "grade": ""
+                        },
+                        "Basic Writing Skills": {
+                            "ects": 5,
+                            "score": 0,
+                            "grade": ""
+                        },
+                        "Applied Mathematics II": {
+                            "ects": 7,
+                            "score": 0,
+                            "grade": ""
+                        },
+                        "Introduction to Economics": {
+                            "ects": 5,
+                            "score": 0,
+                            "grade": ""
+                        },
+                        "Engineering Mechanics II (Dynamics)": {
+                            "ects": 6,
+                            "score": 0,
+                            "grade": ""
+                        },
+                        "Fundamentals of Circuits": {
+                            "ects": 6,
+                            "score": 0,
+                            "grade": ""
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "admin": {
+        "MulatYazew": {
+            "username": "mulat.yazew@aau.edu.et",
+            "password": "$2b$12$uG0vcQ6V60MrzhK9TuYEhe.gVSUN1bxrTz4hdoD63gykw7eEzvQ0u"
+        },
+        "YosefTeshome": {
+            "username": "yosef.teshome@aau.edu.et",
+            "password": "$2b$12$uG0vcQ6V60MrzhK9TuYEhe.gVSUN1bxrTz4hdoD63gykw7eEzvQ0u"
+        }
+    },
+
+    "teachers": {
+        "existing_emails": [],
+        "Electrical and Computer Engineering": {
+            "solomon.nigussu@aau.edu.et": {
+                "courses_to_teach": [
+                    "Applied Electronics",
+                    "Applied Electronics II",
+                    "Electrical Engineering Lab I"
+                ],
+                "start_year": "2010-01-26",
+                "first_name": "Solomon",
+                "last_name": "Nigussu",
+                "username": "solomon.nigussu@aau.edu.et",
+                "password": "$2b$12$uG0vcQ6V60MrzhK9TuYEhe.gVSUN1bxrTz4hdoD63gykw7eEzvQ0u",
+                "stream": "Electronics Engineering",
+                "degree_information": {
+                   "Bachelor of Science": {
+                       "university": "Addis Ababa University",
+                       "specialization": "Electronics Engineering",
+                       "research": "Design and Implementation of a Smart Home Automation System",
+                       "year_of_study": "2009-2013"
+                   },
+                    "Masters Degree": {
+                        "university": "University of California, Berkeley",
+                        "specialization": "Electronics Engineering",
+                        "research": "Advanced Circuit Design for IoT Applications",
+                        "year_of_study": "2014-2016"
+                    },
+                    "PhD": {
+                        "university": "University of Michigan",
+                        "specialization": "Embedded Systems",
+                        "research": "High-Performance Embedded Systems for Real-Time Applications",
+                        "year_of_study": "2018-2022"
+                    }
+                },
+
+
+                "research_interests": [
+                    "Embedded Systems",
+                    "Control Systems",
+                    "Robotics",
+                    "VLSI Design",
+                    "IoT Systems",
+                    "Machine Learning"
+                ]
+            },
+            "bisrat.derebssa@aau.edu.et": {
+                "courses_to_teach": [
+                    "Digital Signal Processing",
+                    "Network Analysis and Sysnthesis"
+                ],
+                "start_year": "2007-10-10",
+                "first_name": "Bisrat",
+                "last_name": "Derebssa",
+                "username": "bisrat.derebssa@aau.edu.et",
+                "password": "$2b$12$uG0vcQ6V60MrzhK9TuYEhe.gVSUN1bxrTz4hdoD63gykw7eEzvQ0u",
+                "stream": "Computer Engineering",
+                "degree_information": {
+                    "Bachelor of Science": {
+                        "university": "Addis Ababa University",
+                        "specialization": "Computer Engineering",
+                        "research": "Development of a Real-Time Data Processing System",
+                        "year_of_study": "2006-2010"
+                    },
+                    "Masters Degree": {
+                        "university": "Massachusetts Institute of Technology (MIT)",
+                        "specialization": "Computer Engineering",
+                        "research": "Advanced Algorithms for Data Processing",
+                        "year_of_study": "2011-2013"
+                    },
+                    "PhD": {
+                        "university": "Stanford University",
+                        "specialization": "Computer Networks",
+                        "research": "High-Speed Network Protocols for Large-Scale Systems",
+                        "year_of_study": "2014-2018"
+                    }
+                },
+                "research_interests": [
+                    "Embedded Systems",
+                    "signal processing",
+                    "natural language processing",
+                    "computer vision",
+                    "machine learning",
+                    "artificial intelligence"
+
+                ]
+            },
+            "melake.serawit@aau.edu.et": {
+                "courses_to_teach": [
+                    "Computer Architecture and Organization",
+                    "Introduction to Compilers"
+                ],
+                "start_year": "2016-02-12",
+                "first_name": "Melake",
+                "last_name": "Serawit",
+                "username": "melake.serawit@aau.edu.et",
+                "password": "$2b$12$uG0vcQ6V60MrzhK9TuYEhe.gVSUN1bxrTz4hdoD63gykw7eEzvQ0u",
+                "stream": "Computer Engineering",
+                "degree_information": {
+                    "Bachelor of Science": {
+                        "university": "Addis Ababa University",
+                        "specialization": "Computer Engineering",
+                        "research": "Development of a Real-Time Data Processing System",
+                        "year_of_study": "2009-2013"
+                    },
+                    "Masters Degree": {
+                        "university": "Addis Ababa University",
+                        "specialization": "Computer Engineering",
+                        "research": "Advanced Algorithms for Data Processing",
+                        "year_of_study": "2014-2016"
+                    },
+                    "PhD": {
+                        "university": "",
+                        "specialization": "",
+                        "research": "",
+                        "year_of_study": ""
+                    }
+                },
+                "research_interests": [
+                    "Embedded Systems",
+                    "compiler design",
+                    "computer architecture",
+                    "operating systems",
+                    "distributed systems",
+                    "machine learning",
+                    "artificial intelligence"
+                ]
+            },
+            "fitsum.assamnew@aau.edu.et": {
+                "courses_to_teach": [
+                    "Software Engineering",
+                    "Machine Learning",
+                    "Thesis"
+                ],
+                "start_year": "2015-30-09",
+                "stream": "Computer Engineering",
+                "first_name": "Fitsum",
+                "last_name": "Assamnew",
+                "username": "fitsum.assamnew@aau.edu.et",
+                "password": "$2b$12$uG0vcQ6V60MrzhK9TuYEhe.gVSUN1bxrTz4hdoD63gykw7eEzvQ0u",
+                "degree_information": {
+                    "Bachelor of Science": {
+                        "university": "Addis Ababa University",
+                        "specialization": "Computer Engineering",
+                        "research": "Development of a Real-Time Data Processing System",
+                        "year_of_study": "2009-2013"
+                    },
+                    "Masters Degree": {
+                        "university": "University of Michigan",
+                        "specialization": "Computer Engineering",
+                        "research": "Advanced Algorithms for Data Processing",
+                        "year_of_study": "2014-2016"
+                    },
+                    "PhD": {
+                        "university": "University of Michigan",
+                        "specialization": "Artificial Intelligence",
+                        "research": "Deep Learning Techniques for Image Recognition",
+                        "year_of_study": "2016-2020"
+                    }
+                },
+                "research_interests": [
+                    "Embedded Systems",
+                    "machine learning",
+                    "artificial intelligence",
+                    "computer vision",
+                    "natural language processing",
+                    "data science"
+                ]
+            },
+            "bethelhem.seifu@aau.edu.et": {
+                "courses_to_teach": [
+                    "Introduction to Communication Systems",
+                    "Data Communication and Computer Systems"
+                ],
+                "start_year": "2017-10-09",
+                "first_name": "Bethelhem",
+                "last_name": "Seifu",
+                "username": "bethelhem.seifu@aau.edu.et",
+                "password": "$2b$12$uG0vcQ6V60MrzhK9TuYEhe.gVSUN1bxrTz4hdoD63gykw7eEzvQ0u",
+                "stream": "Communication Engineering",
+                "degree_information": {
+                    "Bachelor of Science": {
+                        "university": "Addis Ababa University",
+                        "specialization": "Communication Engineering",
+                        "research": "Development of a Real-Time Data Processing System",
+                        "year_of_study": "2018-2020"
+                    },
+                    "Masters Degree": {
+                        "university": "Massachusetts Institute of Technology (MIT)",
+                        "specialization": "Communication Engineering",
+                        "research": "Advanced Algorithms for Data Processing",
+                        "year_of_study": "2021-2024"
+                    },
+                    "PhD": {
+                        "university": "",
+                        "specialization": "",
+                        "research": "",
+                        "year_of_study": ""
+                    }
+                },
+                "research_interests": [
+                    "Wireless Communication",
+                    "network design",
+                    "communication systems",
+                    "network protocols",
+                    "signal processing",
+                    "machine learning"
+                ]
+            },
+            "abebe.tesfaye@aau.edu.et": {
+                "courses_to_teach": [
+                    "Introduction to Control Engineering",
+                    "Embedded Systems"
+                ],
+                "start_year": "2018-05-20",
+                "first_name": "Abebe",
+                "last_name": "Tesfaye",
+                "username": "abebe.tesfaye@aau.edu.et",
+                "password": "$2b$12$uG0vcQ6V60MrzhK9TuYEhe.gVSUN1bxrTz4hdoD63gykw7eEzvQ0u",
+                "stream": "control engineering",
+                "degree_information": {
+                    "Bachelor of Science": {
+                        "university": "Addis Ababa University",
+                        "specialization": "Control Engineering",
+                        "research": "Development of a Real-Time Data Processing System",
+                        "year_of_study": "2010-2021"
+                    },
+                    "Masters Degree": {
+                        "university": "Massachusetts Institute of Technology (MIT)",
+                        "specialization": "Control Engineering",
+                        "research": "Advanced Algorithms for Data Processing",
+                        "year_of_study": "2022-2024"
+                    },
+                    "PhD": {
+                        "university": "",
+                        "specialization": "",
+                        "research": "",
+                        "year_of_study": ""
+                    }
+                }
+            },
+            "hanna.tesfaye@aau.edu.et": {
+                "courses_to_teach": [
+                    "Introduction to Electrical Machines",
+                    "Electrical Materials and Technology"
+                ],
+                "start_year": "2021-09-10",
+                "first_name": "Hanna",
+                "last_name": "Tesfaye",
+                "username": "hanna.tesfaye@aau.edu.et",
+                "password": "$2b$12$uG0vcQ6V60MrzhK9TuYEhe.gVSUN1bxrTz4hdoD63gykw7eEzvQ0u",
+                "stream": "ECE",
+                "degree_information": {
+                    "Bachelor of Science": {
+                        "university": "Addis Ababa University",
+                        "specialization": "Communication Engineering",
+                        "research": "Development of a Real-Time Data Processing System",
+                        "year_of_study": "2016-2021"
+                    },
+                    "Masters Degree": {
+                        "university": "",
+                        "specialization": "",
+                        "research": "",
+                        "year_of_study": ""
+                    },
+                    "PhD": {
+                        "university": "",
+                        "specialization": "",
+                        "research": "",
+                        "year_of_study": ""
+                    }
+                },
+                "research_interests": [
+                    "Wireless Communication",
+                    "network design",
+                    "communication systems",
+                    "network protocols",
+                    "signal processing",
+                    "machine learning"
+                ]
+            
+            },
+            "mekdes.alemayehu@aau.edu.et": {
+                "courses_to_teach": [
+                    "Digital Logic Design",
+                    "Object Oriented Programming (Java)"
+                ],
+                "start_year": "2009-09-09",
+                "first_name": "Mekdes",
+                "last_name": "Alemayehu",
+                "username": "mekdes.alemayehu@aau.edu.et",
+                "password": "$2b$12$uG0vcQ6V60MrzhK9TuYEhe.gVSUN1bxrTz4hdoD63gykw7eEzvQ0u",
+                "stream": "computer",
+                "Bachelor of Science": {
+                        "university": "Addis Ababa University",
+                        "specialization": "Control Engineering",
+                        "thesis": "Development of a Real-Time Data Processing System",
+                        "year_of_study": "2010-2021"
+                    },
+                "Masters Degree": {
+                        "university": "Addis Ababa University",
+                        "specialization": "Control Engineering",
+                        "research": "Advanced Algorithms for Data Processing",
+                        "year_of_study": "2022-2024"
+                    },
+                "PhD": {
+                        "university": "",
+                        "specialization": "",
+                        "dissertation": "",
+                        "year_of_study": ""
+                    }
+            }
+        }
+    },
+
+    "electrical and computer engineering": {
+        
+            "courses": {
+               " bachelor of science":{ 
+                "Year 1": {
+                    "Semester 1": {
+                        "Applied Mathematics I": {
+                            "ects": 7,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Introduction to Engineering Profession": {
+                            "ects": 2
+                        },
+                        "Engineering Drawing": {
+                            "ects": 6,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Communicative English": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Engineering Mechanics I (Statics)": {
+                            "ects": 6,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Civics and Ethical Education": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        }
+                    },
+                    "Semester 2": {
+                        "Electrical Engineering Lab I": {
+                            "ects": 2,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Introduction to Logic": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Basic Writing Skills": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Applied Mathematics II": {
+                            "ects": 7,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Introduction to Economics": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Engineering Mechanics II (Dynamics)": {
+                            "ects": 6,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Fundamentals of Circuits": {
+                            "ects": 6,
+                            "stream": [
+                                "ECE"
+                            ]
+                        }
+                    }
+                },
+                "Year 2": {
+                    "Semester 1": {
+                        "Introduction to Computing": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Applied Modern Physics": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Electrical Workshop Practice I": {
+                            "ects": 3,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Electrical Engineering Lab II": {
+                            "ects": 3,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Applied Engineering Mathematics III": {
+                            "ects": 7,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Applied Electronics I": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Engineering Thermodynamics": {
+                            "ects": 4,
+                            "stream": [
+                                "ECE"
+                            ]
+                        }
+                    },
+                    "Semester 2": {
+                        "Electrical Workshop II": {
+                            "ects": 4,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Electrical Engineering Lab III": {
+                            "ects": 3,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Signals and Systems Analysis": {
+                            "ects": 6,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Computational Methods": {
+                            "ects": 6,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Electromagnetic Fields": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Applied Mathematics II": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        }
+                    }
+                },
+                "Year 3": {
+                    "Semester 1": {
+                        "Introduction to Electrical Machines": {
+                            "ects": 6,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Electrical Materials and Technology": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Network Analysis and Sysnthesis": {
+                            "ects": 6,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Probabiliy and Random Proccess": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Machine Lab": {
+                            "ects": 3,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Digital Logic Design": {
+                            "ects": 6,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Object Oriented Programming (Java)": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        }
+                    },
+                    "Semester 2": {
+                        "Digital Signal Processing": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Introduction to Instrumentation": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Introduction to Power System": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Electrical Engineering Lab IV": {
+                            "ects": 4,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Computer Architecture and Organization": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Introduction to Communication Systems": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Introduction to Control Engineering": {
+                            "ects": 5,
+                            "stream": [
+                                "ECE"
+                            ]
+                        }
+                    }
+                },
+                "Year 4": {
+                    "Semester 1": {
+                        "VLSI Design": {
+                            "ects": 5,
+                            "stream": [
+                                "computer", "electronics"
+                            ]
+                        },
+                        "Software Engineering": {
+                            "ects": 5,
+                            "stream": [
+                                "computer"
+                            ]
+                        },
+                        "Microcomputer and Interfacing": {
+                            "ects": 6,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Database Systems": {
+                            "ects": 5,
+                            "stream": [
+                                "computer"
+                            ]
+                        },
+                        "Data Structure": {
+                            "ects": 5,
+                            "stream": [
+                                "computer"
+                            ]
+                        },
+                        "Data Communication and Computer Systems": {
+                            "ects": 5,
+                            "stream": [
+                                "computer",
+                                "communication"
+                            ]
+                        }
+                    },
+                    "Semester 2": {
+                        "Intership": {
+                            "ects": 30,
+                            "stream": [
+                                "ECE"
+                            ]
+                        }
+                    }
+                },
+                "Year 5": {
+                    "Semester 1": {
+                        "Semester Project": {
+                            "ects": 4,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Computer and Network Security": {
+                            "ects": 5,
+                            "stream": [
+                                "computer"
+                            ]
+                        },
+                        "Research Methods and Presentation": {
+                            "ects": 3,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Embedded Systems": {
+                            "ects": 5,
+                            "stream": [
+                                "computer",
+                                "control"
+                            ]
+                        },
+                        "Introduction to Compilers": {
+                            "ects": 5,
+                            "stream": [
+                                "computer"
+                            ]
+                        },
+                        "Algorithm Analysis and Design": {
+                            "ects": 4,
+                            "stream": [
+                                "computer"
+                            ]
+                        },
+                        "Operating System": {
+                            "ects": 5,
+                            "stream": [
+                                "computer"
+                            ]
+                        }
+                    },
+                    "Semester 2": {
+                        "Introduction to Robotics": {
+                            "ects": 5,
+                            "stream": [
+                                "computer",
+                                "control"
+                            ]
+                        },
+                        "Entrepreneurship": {
+                            "ects": 4,
+                            "stream": [
+                                "ECE"
+                            ]
+                        },
+                        "Thesis": {
+                            "ects": 12,
+                            "stream": [
+                                "ECE"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+
+    "degree programs": {
+        "bachelor of science": {
+            "english and literature": 4,
+            "georgraphy and environmental studies": 4,
+            "political science and international relations": 4,
+            "history and heritage management": 4,
+            "special needs and inclusive education": 4,
+            "foreign languages and literature": 4,
+            "journalism and communication": 4,
+            "business and economic sciences": 4,
+            "natural and computational sciences": 4,
+            "electrical and computer engineering": 5,
+            "software engineering": 5,
+            "computer science": 4,
+            "chemical and biomedical engineering": 5,
+            "civil and environmental engineering": 5,
+            "mechanical and industrial engineering": 5,
+            "biomedical engineering": 5,
+            "architecture": 5,
+            "agriculture": 5,
+            "law": 5,
+            "medicine": 7,
+            "pharmacy": 5,
+            "nursing": 4,
+            "public health": 4,
+            "public health specialization": 4,
+            "medicine specialization": 4,
+            "dentistry": 4,
+            "health officer": 4,
+            "midwifery": 4,
+            "adult and maternal health ": 4,
+            "sychatric nursing": 7
+        },
+        "Masters Degrees": {
+            "english and literature": 2,
+            "georgraphy and environmental studies": 2,
+            "political science and international relations": 2,
+            "history and heritage management": 2,
+            "special needs and inclusive education": 2,
+            "foreign languages and literature": 2,
+            "journalism and communication": 2,
+            "business and economic sciences": 2,
+            "natural and computational sciences": 2,
+            "electrical and computer engineering": 2,
+            "software engineering": 2,
+            "computer science": 2,
+            "chemical and biomedical engineering": 2,
+            "civil and environmental engineering": 2,
+            "mechanical and industrial engineering": 2,
+            "biomedical engineering": 2,
+            "architecture": 2,
+            "agriculture": 2,
+            "law": 2,
+            "nursing": 2,
+            "pharmacy": 2,
+            "public health": 2,
+            "public health specialization": 2,
+            "medicine": 2,
+            "medicine specialization": 2,
+            "dentistry": 2,
+            "health officer": 2,
+            "midwifery": 2,
+            "adult and maternal health ": 2,
+            "sychatric nursing": 2
+        },
+        "PhD": {
+            "english and literature": 3,
+            "georgraphy and environmental studies": 3,
+            "political science and international relations": 3,
+            "history and heritage management": 3,
+            "special needs and inclusive education": 3,
+            "foreign languages and literature": 3,
+            "journalism and communication": 3,
+            "business and economic sciences": 3,
+            "natural and computational sciences": 3,
+            "electrical and computer engineering": 3,
+            "software engineering": 3,
+            "computer science": 3,
+            "chemical and biomedical engineering": 3,
+            "civil and environmental engineering": 3,
+            "mechanical and industrial engineering": 3,
+            "biomedical engineering": 3,
+            "architecture": 3,
+            "agriculture": 3,
+            "law": 3,
+            "nursing": 3,
+            "pharmacy": 3,
+            "public health": 3,
+            "public health specialization": 3,
+            "medicine": 3,
+            "medicine specialization": 3,
+            "dentistry": 3,
+            "health officer": 3,
+            "midwifery": 3,
+            "adult and maternal health ": 3,
+            "sychatric nursing": 3
+        }
+    },
+    "university": {
+        "university_name":"Addis Ababa University",
+        "colleges": {
+            "aait":{
+            "electrical and computer engineering": [
+                "Communication Engineering",
+                "Computer Engineering",
+                "Control Engineering",
+                "Electronics Engineering",
+                "Power Engineering"
+            ],
+            "mechanical and industrial engineering": [
+                "Thermal Engineering",
+                "Industrial Engineering"
+            ],
+            "biomedical engineering": "School of Biomedical Engineering",
+            "chemical and biomedical engineering": "School of Chemical and Biomedical Engineering",
+            "softaware and it engineering": [
+                "IT",
+                "AI",
+                "Cyber Security",
+                "Data Science",
+                "Machine Learning"
+            ],
+            "civil and environmental engineering": "School of Civil and Environmental Engineering"
+        },
+        "business and economics": [
+            "Economics",
+            "Public Administration and Management",
+            "IS",
+            "Business Management"
+        ],
+        "natural and computational sciences": [
+            "Computer Science",
+            "Physics",
+            "Biology",
+            "Chemistry",
+            "Antropology"
+        ]
+    },
+    "grading_scale": {
+        "A+": 4.0,
+        "A": 4.0,
+        "A-": 3.75,
+        "B+": 3.5,
+        "B": 3.0,
+        "B-": 2.75,
+        "C+": 2.5,
+        "C": 2.0,
+        "C-": 1.75,
+        "D": 1,
+        "F": 0
+    },
+    "history": {
+        "action_doer": {}
+    },
+
+    "student_id": []
+}
+}
