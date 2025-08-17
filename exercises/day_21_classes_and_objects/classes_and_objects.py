@@ -56,7 +56,7 @@ class Statistics:
         for i in sorted_list:
             mode_dict[i] = mode_dict.get(i, 0) + 1
         max_freq = max(mode_dict.values())
-        modes = [k for k, v in mode_dict.items() if v == max_freq]
+        modes = [(k, v) for k, v in mode_dict.items() if v == max_freq]
         return modes
     def range(self):
         highest = max(self.list_variable)
@@ -71,8 +71,13 @@ class Statistics:
         return self.variance()**0.5
     def frequency_distribution(self):
         sorted_list = sorted(self.list_variable)
+        frequency_dict = {}
         freq_list = []
-        
+        for num in sorted_list:
+            frequency_dict[num] = frequency_dict.get(num, 0) + 1
+        for key, value in frequency_dict.items():
+            freq_list.append(((value*100)/len(sorted_list), key))
+        return freq_list
 
 # Exercises: Level 2
 """
@@ -88,31 +93,57 @@ class PersonAccount:
         self.lastname = lastname
         self.incomes = incomes
         self.expenses = expenses
+    
+    def add_income(self, amount, description):
+        self.incomes.append((amount, description))
+
+    def add_expense(self, amount, description):
+        self.expenses.append((amount, description))
 
     def total_income(self):
-        pass
+        return sum(amount for amount, _ in self.incomes)
+    
     def total_expense(self):
-        pass
-    def account_info(self):
-        pass
-    def add_income(self):
-        pass
-    def add_expense(self):
-        pass
+        return sum(amount for amount, _ in self.expenses)
+
     def account_balance(self):
-        pass
+        return self.total_income() - self.total_expense()
+    
+    def account_info(self):
+        print(f"Account Holder: {self.firstname} {self.lastname}")
+        print("Incomes:")
+        for amount, desc in self.incomes:
+            print(f"  + {amount} ({desc})")
+        print("Expenses:")
+        for amount, desc in self.expenses:
+            print(f"  - {amount} ({desc})")
+        print(f"Total Income: {self.total_income()}")
+        print(f"Total Expense: {self.total_expense()}")
+        print(f"Account Balance: {self.account_balance()}")
 
 
 
-    if __name__ == "__main__":
-        stats = Statistics([31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26])
-        print("Count:", stats.count())
-        print("Sum:", stats.sum_number())
-        print("Max:", stats.maximum())
-        print("Min:", stats.minimum())
-        print("Mean:", stats.mean())
-        print("Median:", stats.median())
-        print("Mode:", stats.mode())
-        print("Range:", stats.range())
-        print("Variance:", stats.variance())
-        print("Standard Deviation:", stats.st_deviation())
+if __name__ == "__main__":
+
+    # Statistics
+    stats = Statistics([31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26])
+    print("Count:", stats.count())
+    print("Sum:", stats.sum_number())
+    print("Max:", stats.maximum())
+    print("Min:", stats.minimum())
+    print("Mean:", stats.mean())
+    print("Median:", stats.median())
+    print("Mode:", stats.mode())
+    print("Range:", stats.range())
+    print("Variance:", stats.variance())
+    print("Standard Deviation:", stats.st_deviation())
+    print("Frequency Distribution:", stats.frequency_distribution())
+
+    #Person Account
+    person_account = PersonAccount("John", "Doe", [], [])
+    person_account.add_income(5000, "Salary")
+    person_account.add_income(10000, "Shopping")
+    person_account.add_expense(1500, "Rent")
+    person_account.add_expense(200, "Utilities")
+    person_account.account_info()
+    
