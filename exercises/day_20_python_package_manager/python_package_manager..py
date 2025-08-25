@@ -133,7 +133,7 @@ def read_ucl_content():
     url = "https://archive.ics.uci.edu/datasets"
     resp = requests.get(url)
     resp.raise_for_status()
-    soup = BeautifulSoup(resp.text, "html.parser")
+    soup = BeautifulSoup(resp.text, "lxml")
 
     datasets = []
     # Find all headings that start with '## ' (i.e., <h2> in HTML)
