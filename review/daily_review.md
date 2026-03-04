@@ -42,7 +42,6 @@ Welcome to our shared peer-review space! Each day, we’ll take 5–10 minutes t
 ## 📆 Day 2 - YYYY-MM-DD
 
 ### 👤 Reviewer: Partner  
-### 👤 Reviewee: Yosef
 
 #### ✅ Summary of Exercises
 - **Topic**: Functions
