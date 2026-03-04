@@ -15,8 +15,8 @@ print("3 // 4 is :", 3 // 4)
 
 # Print String
 
-print("Yosef")
-print("Teshome")
+print("Mulat")
+print("Yazew")
 print("Ethiopia")
 print("I am enjoying 30 Days of python challenge")
 
