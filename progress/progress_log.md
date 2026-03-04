@@ -1,7 +1,7 @@
 📈 Progress Log – Python 30-Day Challenge
 ✅ Completed 🟡 In Progress ❌ Not Started
 
-Day	Date	    Topic	                          Yosef 	Mulat 	Notes / Reflections
+Day	Date	    Topic	                    	Mulat 	Notes / Reflections
 1	YYYY-MM-DD	Introduction to Python			
 2	YYYY-MM-DD	Variables & Built-in Functions			
 3	YYYY-MM-DD	Operators			
