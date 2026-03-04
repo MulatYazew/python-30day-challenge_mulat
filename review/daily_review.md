@@ -6,7 +6,6 @@ Welcome to our shared peer-review space! Each day, we’ll take 5–10 minutes t
 
 ## 📆 Day 1 - YYYY-MM-DD
 
-### 👤 Reviewer: Yosef  
 ### 👤 Reviewee: Mulat
 
 #### ✅ Summary of Exercises
