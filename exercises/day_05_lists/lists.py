@@ -1,211 +1,142 @@
-# List Exercises – Day 5
-# Level 1
-# 1. Declare an empty list
+
+# Exercises: Level 1
+#Declare an empty list
 empty_list = []
 
-# 2. Declare a list with more than 5 items
-fruits = ['apple', 'banana', 'orange', 'mango', 'grape', 'kiwi']
-print('Fruits:', fruits)
-print('-' * 40)
+#Declare a list with more than 5 items
+my_list = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig']
 
-# 3. Find the length of your list
-print('Number of fruits:', len(fruits))
-print('-' * 40)
+#Find the length of your list
+print(len(my_list))
 
-# 4. Get the first, middle, and last items
-print('First fruit:', fruits[0]) # First item
-print('Middle fruit:', fruits[len(fruits)//2]) # Middle item
-print('Last fruit:', fruits[-1]) # Last item
-print('-' * 40)
+#Get the first item, the middle item and the last item of the list
+first_item = my_list[0]
+middle_item = my_list[len(my_list) // 2]
+last_item = my_list[-1]
+print(f"First item: {first_item}, Middle item: {middle_item}, Last item: {last_item}")
 
-# 5. Declare a list called mixed_data_types
-mixed_data_types = ['Yosef', 28, 1.75, 'Addis Ababa', True]
-print('Mixed data types:', mixed_data_types)
-print('-' * 40)
+#Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
+mixed_data_types = ['John Doe', 30, 5.9, 'Single', 'Via Gustavo Modena, 36, 20129 Milan, Italy']
 
-# 6. Declare a list variable named it_companies
+#Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
 it_companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
-print('IT Companies:', it_companies)
-print('-' * 40)
 
-# 7. Print the list using print()
+#Print the list using print()
 print(it_companies)
-print('-' * 40)
 
-# 8. Print the number of companies
-print('Number of IT companies:', len(it_companies))
-print('-' * 40)
+#Print the number of companies in the list
+print(len(it_companies))
 
-# 9. Print the first, middle, and last company
-print('First company:', it_companies[0])
-print('Middle company:', it_companies[len(it_companies)//2])
-print('Last company:', it_companies[-1])
-print('-' * 40)
+#Print the first, middle and last company
+first_company = it_companies[0]
+middle_company = it_companies[len(it_companies) // 2]
+last_company = it_companies[-1]
+print(f"First company: {first_company}, Middle company: {middle_company}, Last company: {last_company}")
 
-# 10. Modify one of the companies
+#Print the list after modifying one of the companies
 it_companies[0] = 'Meta'
-print('After modification:', it_companies)
-print('-' * 40)
+print(it_companies)
 
-# 11. Add an IT company to it_companies
+#Add an IT company to it_companies
 it_companies.append('Tesla')
-print('After appending:', it_companies)
-print('-' * 40)
+print(it_companies)
 
-# 12. Insert an IT company in the middle
-it_companies.insert(len(it_companies)//2, 'Twitter')
-print('After inserting in the middle:', it_companies)
-print('-' * 40)
+#Insert an IT company in the middle of the companies list
+it_companies.insert(len(it_companies) // 2, 'Netflix')
+print(it_companies)
 
-# 13. Change one of the companies to uppercase
-it_companies[1] = it_companies[1].upper()
-print('After uppercase:', it_companies)
-print('-' * 40)
+#Change one of the it_companies names to uppercase (IBM excluded!)
+it_companies[3] = it_companies[3].upper()
+print(it_companies)
 
-# 14. Join the companies with a string '#'
-print('Companies joined:', ' # '.join(it_companies))
-print('-' * 40)
+#Join the it_companies with a string '#;  '
+joined_companies = '#;  '.join(it_companies)
+print(joined_companies)
 
-# 15. Check if a company exists
-print('Is Google in the list?', 'Google' in it_companies) # prints True or False
-print('-' * 40)
+#Check if a certain company exists in the it_companies list.
+print('Google' in it_companies)
 
-# 16. Sort the list
+#Sort the list using sort() method
 it_companies.sort()
-print('Sorted companies:', it_companies)
-print('-' * 40)
+print(it_companies)
 
-# 17. Reverse the list
-it_companies.reverse()
-print('Reversed companies:', it_companies)
-print('-' * 40)
+#Reverse the list in descending order using reverse() method
+it_companies.reverse(reversed=True)
 
-# 18. Slice out the first 3 companies
-print('First 3 companies:', it_companies[:3])
-print('-' * 40)
+#Slice out the first 3 companies from the list
+it_companies[:3]
 
-# 19. Slice out the last 3 companies
-print('Last 3 companies:', it_companies[-3:])
-print('-' * 40)
+#Slice out the last 3 companies from the list
+it_companies[-3:]
 
-# 20. Slice out the middle company or companies
-mid = len(it_companies)//2
+#Slice out the middle IT company or companies from the list
+middle_index = len(it_companies) // 2
 if len(it_companies) % 2 == 0:
-    print('Middle companies:', it_companies[mid-1:mid+1])
-else:
-    print('Middle company:', it_companies[mid])
-print('-' * 40)
+    middle_companies = it_companies[middle_index - 1:middle_index + 1]
+else:    middle_companies = it_companies[middle_index:middle_index + 1]
 
-# 21. Remove the first company
+#Remove the first IT company from the list
 it_companies.pop(0)
-print('After removing first:', it_companies)
-print('-' * 40)
 
-# 22. Remove the middle company
-mid = len(it_companies)//2
-it_companies.pop(mid)
-print('After removing middle:', it_companies)
-print('-' * 40)
+# Remove the middle IT company or companies from the list
+if len(it_companies) % 2 == 0:
+    del it_companies[middle_index - 1:middle_index + 1]
+else:    del it_companies[middle_index]
 
-# 23. Remove the last company
-it_companies.pop()
-print('After removing last:', it_companies)
-print('-' * 40)
+#Remove the last IT company from the list
+it_companies.pop(-1)
 
-# 24. Remove all companies
+#Remove all IT companies from the list
 it_companies.clear()
 print('After clearing:', it_companies)
-print('-' * 40)
 
-# 25. Delete the list
-del it_companies  # delete company
+#Destroy the IT companies list
+del it_companies
 
+#Join the following lists:
 
-# 26. Join front_end and back_end lists
 front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
 back_end = ['Node','Express', 'MongoDB']
-full_stack = front_end + back_end
-print('Full stack:', full_stack)
-print('-' * 40)
 
-# 27. Insert Python and SQL after Redux
-full_stack.insert(full_stack.index('Redux')+1, 'Python')
-full_stack.insert(full_stack.index('Python')+1, 'SQL')
-print('Full stack after insert:', full_stack)
-print('-' * 40)
+deveops = front_end + back_end
+print(deveops)
+#After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack, then insert Python and SQL after Redux.
+full_stack = deveops.copy()
+full_stack.insert(full_stack.index('Redux') + 1, 'Python')
+full_stack.insert(full_stack.index('Python') + 1, 'SQL')
+print(full_stack)
+# Exercises: Level 2
 
-# Level 2 Exercises
-
-# 1. List of student ages
+# The following is a list of 10 students ages:
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
-print('Ages:', ages)
-print('-' * 40)
-
-# 2. Sort the list and find min and max age
+#Sort the list and find the min and max age
 ages.sort()
-print('Sorted ages:', ages)
-print('Min age:', min(ages))
-print('Max age:', max(ages))
-print('-' * 40)
-
-# 3. Add min and max age again to the list
-ages.append(min(ages))
-ages.append(max(ages))
-print('Ages after adding min and max again:', ages)
-print('-' * 40)
-
-# 4. Find the median age
+min_age = min(ages)
+max_age = max(ages)
+print(f"Min age: {min_age}, Max age: {max_age}")
+#Add the min age and the max age again to the list
+ages.append(min_age)
+ages.append(max_age)
+print(ages)
+#Find the median age (one middle item or two middle items divided by two)
 ages.sort()
 n = len(ages)
 if n % 2 == 0:
-    median = (ages[n//2 - 1] + ages[n//2]) / 2
-else:
-    median = ages[n//2]
-
-print("Median age:", median)
-print('-' * 40)
-
-# 5. Find the average age
-average = sum(ages) / len(ages)
-print('Average age:', average)
-print('-' * 40)
-
-# 6. Find the range of the ages
-age_range = max(ages) - min(ages)
-print('Range of ages:', age_range)
-print('-' * 40)
-
-# 7. Compare (min - average) and (max - average)
-min_diff = abs(min(ages) - average)
-max_diff = abs(max(ages) - average)
-print('Min - average:', min_diff)
-print('Max - average:', max_diff)
-print('-' * 40)
-
-# 8. Find the middle country(ies)
-countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
-mid = len(countries) // 2
-if len(countries) % 2 == 0:
-    print('Middle countries:', countries[mid-1:mid+1])
-else:
-    print('Middle country:', countries[mid])
-print('-' * 40)
-
-# 9. Divide the countries list into two equal lists
-if len(countries) % 2 == 0:
-    first_half = countries[:mid]
-    second_half = countries[mid:]
-else:
-    first_half = countries[:mid+1]
-    second_half = countries[mid+1:]
-print('First half:', first_half)
-print('Second half:', second_half)
-print('-' * 40)
-
-# 10. Unpack the first three countries and the rest as scandic countries
-china, russia, usa, *scandic = countries
-print('China:', china)
-print('Russia:', russia)
-print('USA:', usa)
-print('Scandic countries:', scandic)
-print('-' * 40)
+    median_age = (ages[n // 2 - 1] + ages[n // 2]) / 2
+else:    median_age = ages[n // 2]
+print(f"Median age: {median_age}")
+#Find the range of the ages (max minus min)
+age_range = max_age - min_age
+#Compare the value of (min - average) and (max - average), use abs() method
+average_age = sum(ages) / len(ages)
+min_diff = abs(min_age - average_age)
+max_diff = abs(max_age - average_age)
+print(f"Min - Average: {min_diff}, Max - Average: {max_diff}")
+#Find the middle country(ies) in the countries list
+number_of_countries = len(countries)
+if number_of_countries % 2 == 0:
+    middle_countries = countries[number_of_countries // 2 - 1:number_of_countries // 2 + 1]
+else:    middle_countries = countries[number_of_countries // 2:number_of_countries // 2 + 1]
+print(f"Middle country(ies): {middle_countries}")
+#Divide the countries list into two equal lists if it is even if not one more country for the first half.
+#['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark'].Unpack the first three countries and the rest as scandic countries.
