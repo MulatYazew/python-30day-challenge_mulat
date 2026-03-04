@@ -1,4 +1,3 @@
-from countries import countries
 import math
 import keyword
 import json
