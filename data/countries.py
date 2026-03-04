@@ -194,4 +194,7 @@ countries = [
   'Zimbabwe',
 ];
 
+def get_countries():
+    return countries
 
+get_countries()
