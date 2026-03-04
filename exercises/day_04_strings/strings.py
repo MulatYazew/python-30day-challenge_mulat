@@ -1,179 +1,113 @@
-# String Exercises – Day 4
-
-# 1. Concatenate 'Thirty', 'Days', 'Of', 'Python' to a single string
-string1 = 'Thirty'
-string2 = 'Days'
-string3 = 'Of'
-string4 = 'Python'
-space = ' '
-# Concatenating the strings with spaces
-fullString = string1 + space + string2 + space + string3 + space + string4
-print(fullString)
-
-# 2. Concatenate 'Coding', 'For', 'All'
-string12 = 'Coding'
-string22 = 'For'
-string32 = 'All'
-space2 = ' '
-fullString2 = string12 + space2 + string22 + space2 + string32
-print(fullString2)
-print('-' * 40)
-
-# 3. Declare a variable named company and assign it to 'Coding For All'
-company = 'Coding For All'
-
-# 4. Print the variable company
+#1. Concatenate the string 'Thirty', 'Days', 'Of', 'Python' to a single string, 'Thirty Days Of Python'.
+python_string = 'Thirty' + ' ' + 'Days' + ' ' + 'Of' + ' ' + 'Python'
+print(python_string)
+#2. Concatenate the string 'Coding', 'For' , 'All' to a single string, 'Coding For All'.
+coding_string = 'Coding' + ' ' + 'For' + ' ' + 'All'
+print(coding_string)
+#3. Declare a variable named company and assign it to an initial value "Coding For All".
+company = "Coding For All"
+#4. Print the variable company using print().
 print(company)
-print('-' * 40)
-
-# 5. Print the length of the company string
-print('Length:', len(company))
-print('-' * 40)
-
-# 6. Change all the characters to uppercase
+#5. Print the length of the company string using len() method and print().
+print(len(company))
+#6. Change all the characters to uppercase letters using upper() method.
 print(company.upper())
-print('-' * 40)
-
-# 7. Change all the characters to lowercase
+#7. Change all the characters to lowercase letters using lower() method.
 print(company.lower())
-print('-' * 40)
-
-# 8. Use capitalize(), title(), swapcase()
+#8. Use capitalize(), title(), swapcase() methods to format the value of the string Coding For All.
 print(company.capitalize())
 print(company.title())
 print(company.swapcase())
-print('-' * 40)
-
-# 9. Cut(slice) out the first word of Coding For All string
+#9. Cut(slice) out the first word of Coding For All string.
 print(company[7:])
-print('-' * 40)
-
-# 10. Check if Coding For All contains 'Coding'
-print('Coding' in company)
-print(company.index('Coding'))
+#10. Check if Coding For All string contains a word Coding using the method index, find or other methods.
 print(company.find('Coding'))
-print('-' * 40)
-
-# 11. Replace 'Coding' with 'Python'
+#11. Replace the word coding in the string 'Coding For All' to Python.
 print(company.replace('Coding', 'Python'))
-print('-' * 40)
-
-# 12. Change 'Python for Everyone' to 'Python for All'
-phrase = 'Python for Everyone'
-print(phrase.replace('Everyone', 'All'))
-print('-' * 40)
-
-# 13. Split 'Coding For All' by space
+#12. Change "Python for Everyone" to "Python for All" using the replace method or other methods.
+python_for_everyone = "Python for Everyone"
+print(python_for_everyone.replace('Everyone', 'All'))
+#13. Split the string 'Coding For All' using space as the separator (split()) .
 print(company.split())
-print('-' * 40)
-
-# 14. Split companies by comma
-companies = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
-print(companies.split(','))
-print('-' * 40)
-
-# 15. Character at index 0 in 'Coding For All'
+#14. "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" split the string at the comma.
+tech_companies = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(tech_companies.split(','))
+#15. What is the character at index 0 in the string Coding For All.
 print(company[0])
-print('-' * 40)
-
-# 16. Last index of 'Coding For All'
-print(company[-1])
-print('-' * 40)
-
-# 17. Character at index 10
+#16. What is the last index of the string Coding For All.
+print(len(company) - 1)
+#17. What character is at index 10 in "Coding For All" string.
 print(company[10])
-print('-' * 40)
-
-# 18. Acronym for 'Python For Everyone'
-acronym1 = ''.join([w[0] for w in 'Python For Everyone'.split()])
+#18. Create an acronym or an abbreviation for the name 'Python For Everyone'.
+python_for_everyone = "Python For Everyone"
+acronym1= python_for_everyone[0] + "." + python_for_everyone[7]+ "." + python_for_everyone[11]
 print(acronym1)
-print('-' * 40)
-
-# 19. Acronym for 'Coding For All'
-acronym2 = ''.join([w[0] for w in company.split()])
+#19. Create an acronym or an abbreviation for the name 'Coding For All'.
+acronym2 = company[0] + "." + company[7]+ "." + company[11]
 print(acronym2)
-print('-' * 40)
-
-# 20. Position of first 'C' in 'Coding For All'
-print(company.index('C'))
-print('-' * 40)
-
-# 21. Position of first 'F' in 'Coding For All'
-print(company.index('F'))
-print('-' * 40)
-
-# 22. rfind last 'l' in 'Coding For All People'
-print('Coding For All People'.rfind('l'))
-print('-' * 40)
-
-# 23. First occurrence of 'because' in sentence
+#20. Use index to determine the position of the first occurrence of C in Coding For All.
+print(company.find('C'))
+#21. Use index to determine the position of the first occurrence of F in Coding For All.
+print(company.find('F'))
+#22. Use rfind to determine the position of the last occurrence of l in Coding For All People.
+print(company.rfind('l'))
+#23. Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 
 sentence = 'You cannot end a sentence with because because because is a conjunction'
 print(sentence.find('because'))
-print('-' * 40)
-
-# 24. Last occurrence of 'because' in sentence
+#24. Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
 print(sentence.rindex('because'))
-print('-' * 40)
-
-# 25. Slice out 'because because because'
-because_phrase = 'because because because'
-start = sentence.find(because_phrase)
-end = start + len(because_phrase)
-print(sentence[start:end])
-print('-' * 40)
-
-# 26. Find position of first 'because'
+#25. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+print(sentence[sentence.find('because'):sentence.rfind('because') + len('because')])
+#26. Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
 print(sentence.find('because'))
-print('-' * 40)
-
-# 27. Slice out 'because because because' again
-print(sentence[start:end])
-print('-' * 40)
-
-# 28. Does 'Coding For All' start with 'Coding'?
+#27. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+print(sentence[sentence.find('because'):sentence.rfind('because') + len('because')])
+#28. Does 'Coding For All' start with a substring Coding?
 print(company.startswith('Coding'))
-print('-' * 40)
-
-# 29. Does 'Coding For All' end with 'coding'?
+#29. Does 'Coding For All' end with a substring coding?
 print(company.endswith('coding'))
-print('-' * 40)
-
-# 30. Remove trailing spaces
+#30. '   Coding For All      '  , remove the left trailing spaces in the given string.
+print('   Coding For All      '.lstrip())
+#31. '   Coding For All      '  , remove the right trailing spaces in the
+print('   Coding For All      '.rstrip())
+#32. '   Coding For All      '  , remove the left and right trailing spaces in the given string.
 print('   Coding For All      '.strip())
-print('-' * 40)
-
-# 31. isidentifier()
+#33. Which one of the following variables return True when we use the method isidentifier():
 print('30DaysOfPython'.isidentifier())
 print('thirty_days_of_python'.isidentifier())
-print('-' * 40)
 
-# 32. Join libraries with hash and space
-libs = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
-print(' # '.join(libs))
-print('-' * 40)
+#34. The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+python_libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print(' # '.join(python_libraries))
+#35. Use the new line escape sequence to separate the following sentences.
+print("I am enjoying this challenge.\nI just wonder what is next.")
 
-# 33. New line escape
-print('I am enjoying this challenge.\nI just wonder what is next.')
-print('-' * 40)
-
-# 34. Tab escape
-print('Name\tAge\tCountry\tCity')
-print('Asabeneh\t250\tFinland\tHelsinki')
-print('-' * 40)
-
-# 35. String formatting: area of a circle
+#36. Use a tab escape sequence to write the following lines.
+#Name      Age     Country   City
+#Asabeneh  250     Finland   Helsinki
+print("Name\t\tAge\t\tCountry\t\tCity")
+print("Asabeneh\t250\t\tFinland\t\tHelsinki")
+#37. Use the string formatting method to display the following:
+#radius = 10
+#area = 3.14 * radius ** 2
 radius = 10
 area = 3.14 * radius ** 2
-print(f'The area of a circle with radius {radius} is {int(area)} meters square.')
-print('-' * 40)
+print(f"The area of a circle with radius {radius} is {area} meters square.")
 
-# 36. String formatting: math operations
-x, y = 8, 6
-print(f'{x} + {y} = {x + y}')
-print(f'{x} - {y} = {x - y}')
-print(f'{x} * {y} = {x * y}')
-print(f'{x} / {y} = {x / y:.2f}')
-print(f'{x} % {y} = {x % y}')
-print(f'{x} // {y} = {x // y}')
-print(f'{x} ** {y} = {x ** y}')
-print('-' * 40)
+#38. Make the following using string formatting methods:
+"""
+8 + 6 = 14
+8 - 6 = 2
+8 * 6 = 48
+8 / 6 = 1.33
+8 % 6 = 2
+8 // 6 = 1
+8 ** 6 = 262144
+"""
+print(f"8 + 6 = {8 + 6}")
+print(f"8 - 6 = {8 - 6}")
+print(f"8 * 6 = {8 * 6}")
+print(f"8 / 6 = {8 / 6:.2f}")
+print(f"8 % 6 = {8 % 6}")
+print(f"8 // 6 = {8 // 6}")
+print(f"8 ** 6 = {8 ** 6}")
