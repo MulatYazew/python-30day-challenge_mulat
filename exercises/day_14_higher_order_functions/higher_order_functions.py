@@ -1,9 +1,11 @@
 #Exercises: Day 14
+
 from functools import reduce
 import sys
 import os
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../data')))
-import countries as countries_list
+import data.countries as countries_list
 
 import json
 from collections import Counter
@@ -152,9 +154,11 @@ def country_starting_with_e(country):
 country_start_with_e = filter(country_starting_with_e, countries)
 print(list(country_start_with_e))
 #8.  Chain two or more list iterators (eg. arr.map(callback).filter(callback).reduce(callback))
-'''scenario - Converts all  names to uppercase.
+'''
+scenario - Converts all  names to uppercase.
               Filters the names that start with the letter "A".
-              Reduce the result to a single string, joined with a dash (-).'''
+              Reduce the result to a single string, joined with a dash (-).
+'''
 def name_to_upper(name):
     return name.upper()
 
@@ -245,6 +249,7 @@ def get_last_ten_countries(countries):
 print(get_last_ten_countries(countries_list))
 
 #Exercises: Level 3
+
 '''1. Use the countries_data.py (https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries-data.py) file and follow the tasks below:
     Sort countries by name, by capital, by population
     Sort out the ten most spoken languages by location.
