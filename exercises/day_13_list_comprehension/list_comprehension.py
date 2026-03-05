@@ -6,13 +6,11 @@ print(list_of_zeros_negative)
 
 #2. Flatten the following list of lists to a one dimensional list
 list_of_lists =[[[1, 2, 3]], [[4, 5, 6]], [[7, 8, 9]]]
-
 flat_list = []
-for i in range(len(list_of_lists)):
-    for j in [0]:
-        for k in range(len(list_of_lists)):
-            flat_list.append(list_of_lists[i][j][k])
-
+for row in list_of_lists:
+    for inner in row:
+        for number in inner:
+            flat_list.append(number)
 print(flat_list)
 
 flattened_list_with_comp = [ number for row in list_of_lists for inner in row for number in inner]
@@ -45,7 +43,7 @@ countries = [[('Finland', 'Helsinki')], [('Sweden', 'Stockholm')], [('Norway', '
 flat_list = [
     [country.upper(), country[:3].upper(), capital.upper()]
     for outer in countries
-    for (country, capital) in outer
+    for(country, capital) in outer
 ]
 print(flat_list)
 
