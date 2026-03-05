@@ -1,58 +1,45 @@
 #Exercises: Day 8
-#1. Create an empty dictionary called dog
-dog = {}
-dog_one = dict()
 
-#2. Add name, color, breed, legs, age to the dog dictionary
-dog['name'], dog['color'], dog['breed'], dog['age']  = 'Jackie', 'black', 'germany', 5
-print(dog)
 
-#3. Create a student dictionary and add first_name, last_name, gender, age, marital status, skills, country,
-#city and address as keys for the dictionary
+#Create an empty dictionary called dog
+
+dct = {}
+#Add name, color, breed, legs, age to the dog dictionary
+dct['name'] = 'Rex'
+dct['color'] = 'Brown'
+dct['breed'] = 'Labrador'
+dct['legs'] = 4
+dct['age'] = 5
+#Create a student dictionary and add first_name, last_name, gender, age, marital status, skills, country, city and address as keys for the dictionary
 student = {
-    'first_name': 'Yisak',
-    'last_name': 'Abebe',
+    'first_name': 'John',
+    'last_name': 'Doe',
     'gender': 'Male',
-    'age': 26,
-    'maritial status': 'Single',
-    'skills': ['nodejs', 'python', 'C++', 'Java'],
-    'country': 'Ethioia',
-    'city': 'Addis Ababa',
-    'Adress': {
-        'street': 'yeka kotebe, 202',
-        'zipcode': 1001
-        }
+    'age': 25,
+    'marital_status': 'Single',
+    'skills': ['Python', 'Data Analysis', 'Machine Learning', 'Deep Learning', 'Natural Language Processing', 'Computer Vision', 'Big Data'],
+    'country': 'USA',
+    'city': 'New York',
+    'address': '123 Main St'
     }
-print(student)
-
-#4. Get the length of the student dictionary
-print(len(student))
-
-#5. Get the value of skills and check the data type, it should be a list
-print(student.get('skills'))
-print(type(student.get('skills')))
-
-#6. Modify the skills values by adding one or two skills
-student['skills'].extend(['DevOps', 'Linux'])
+#Get the length of the student dictionary
+length = len(student)
+print(length)
+#Get the value of skills and check the data type, it should be a list
 print(student['skills'])
-
-#7. Get the dictionary keys as a list
-keys = student.keys()
-print(keys)
-
-#8. Get the dictionary values as a list
-values = student.values()
-print(values)
-
-#9. Change the dictionary to a list of tuples using items() method
-student_list = list(student.items())
-print(student_list)
-
-#10. Delete one of the items in the dictionary
-student.pop('city')
+print(type(student['skills']))
+#Modify the skills values by adding one or two skills
+student['skills'].append('Cloud Computing')
+student['skills'].append('DevOps')
+print(student['skills'])
+#Get the dictionary keys as a list
+print(list(student.keys()))
+#Get the dictionary values as a list
+print(list(student.values()))
+#Change the dictionary to a list of tuples using items() method
+print(list(student.items()))
+#Delete one of the items in the dictionary
+del student['marital_status']
 print(student)
-
-#11. Delete one of the dictionaries
-del dog
-
-
+#Delete one of the dictionaries
+del student
