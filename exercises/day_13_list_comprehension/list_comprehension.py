@@ -32,7 +32,7 @@ print(flattened_list_with_comp)
 (9, 1, 9, 81, 729, 6561, 59049),
 (10, 1, 10, 100, 1000, 10000, 100000)] '''
 
-list_of_tuples = [(i, 1, i * i, i * i * i, i * i * i * i, i*i*i*i*i, i*i*i*i*i*i) for i in range(10)]
+list_of_tuples = [(i, i**0, i **1, i **2 , i **3 , i**4, i**5) for i in range(10)]
 print(list_of_tuples)
 
 #4. Flatten the following list to a new list:
