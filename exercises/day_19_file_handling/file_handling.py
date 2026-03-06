@@ -18,8 +18,16 @@ def number_of_words_lines(filepath):
         print("Number of lines:", len(lines))
         print("Total words:", total_words)
 
-don_filepath = "./data/donald_speech.txt"
-number_of_words_lines(don_filepath)
+
+print("Donald Trump's speech:")
+number_of_words_lines("./data/donald_speech.txt")
+print("\nMelina Trump's speech:")
+number_of_words_lines("./data/melina_trump_speech.txt")
+print("\nObama's speech:")
+number_of_words_lines("./data/obama_speech.txt")
+print("\nMichelle Obama's speech:")
+number_of_words_lines("./data/michelle_obama_speech.txt")
+
 
 #Read the countries_data.json data file in data directory, create a function that finds the ten most spoken languages
 def most_spoken_languages(filename, top_n):
@@ -92,8 +100,6 @@ def find_most_common_words(filename, num):
     return sorted_words[:num]
 
 
-print(find_most_common_words("./data/sample.txt", 5))
-
 #Use the function, find_most_frequent_words to find: a) The ten most frequent words used in Obama's speech b)
 # The ten most frequent words used in Michelle's speech c) The ten most frequent words used in Trump's speech d)
 # The ten most frequent words used in Melina's speech
@@ -123,7 +129,7 @@ def word_count_most_repeated(filename, num):
 
     return sorted_words[:num]
 
-print(word_count_most_repeated("./data./romeo_and_juliet.txt", 10))
+print(word_count_most_repeated("./data/romeo_and_juliet.txt", 10))
 
 
 #Read the hacker news csv file and find out: a) Count the number of lines containing python or Python
@@ -157,9 +163,6 @@ def analyze_hacker_news_csv(file_path):
 
 file_path = './data/hacker_news.csv'
 analyze_hacker_news_csv(file_path)
-
-
-
 
 
 
