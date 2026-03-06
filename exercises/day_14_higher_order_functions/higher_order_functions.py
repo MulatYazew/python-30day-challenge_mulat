@@ -3,14 +3,13 @@
 from functools import reduce
 import sys
 import os
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../data')))
-import data.countries as countries_list
+sys.path.append(os.path.abspath('data/'))
+import countries as countries_list
 
 import json
 from collections import Counter
 
-with open('countries_data.json', 'r', encoding='utf-8') as file:
+with open('data/countries_data.json', 'r', encoding='utf-8') as file:
     countries_items = json.load(file)
 
 countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
@@ -217,36 +216,36 @@ def categorize_countries(country):
     if 'land' in country:
         return True
     return False
-print(list(filter(categorize_countries, countries_list)))
+print(list(filter(categorize_countries, countries_list.countries)))
 
 #13. Create a function returning a dictionary, where keys stand for starting letters of
 # countries and values are the number of country names starting with that letter.
-def countries_by_starting_letter(countries):
+def countries_by_starting_letter(country_variable):
     new_dictionary = {}
-    first_letters = map(lambda country: country[0], countries)
+    first_letters = map(lambda country: country[0], country_variable)
     first_letters_list = list(first_letters)
 
     for char in first_letters_list:
-        value = len(list(filter(lambda country: country.startswith(char), countries)))
+        value = len(list(filter(lambda country: country.startswith(char), country_variable)))
         new_dictionary[char] = value
 
 
     return new_dictionary
 
-print(countries_by_starting_letter(countries_list))
+print(countries_by_starting_letter(countries_list.countries))
 
 #14. Declare a get_first_ten_countries function - it returns a list of first ten countries from the
 # countries.js list in the data folder.
-def get_first_ten_countries(countries):
-    first_ten = list(countries[0:10])
+def get_first_ten_countries(countries_variable):
+    first_ten = list(countries_variable[0:10])
     return first_ten
-print(get_first_ten_countries(countries_list))
+print(get_first_ten_countries(countries_list.countries))
 
 #15. Declare a get_last_ten_countries function that returns the last ten countries in the countries list.
-def get_last_ten_countries(countries):
-    last_ten = list(countries[-10:])
+def get_last_ten_countries(countries_variable):
+    last_ten = list(countries_variable[-10:])
     return last_ten
-print(get_last_ten_countries(countries_list))
+print(get_last_ten_countries(countries_list.countries))
 
 #Exercises: Level 3
 
