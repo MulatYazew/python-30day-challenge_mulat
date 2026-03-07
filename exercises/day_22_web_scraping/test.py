@@ -1,45 +1,36 @@
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
+import json
 
-# URL of the UCI datasets index page
-url = 'https://archive.ics.uci.edu/datasets'
+url = "http://www.bu.edu/president/boston-university-facts-stats/"
 
-# Send a GET request to fetch the page content
+# Send HTTP request
 response = requests.get(url)
-soup = BeautifulSoup(response.text, 'html.parser')
+soup = BeautifulSoup(response.text, "html.parser")
 
-# Find the table containing dataset information
-table = soup.find('table', {'cellpadding': '3'})
+data = {}
 
-# Initialize lists to store extracted data
-dataset_names = []
-dataset_links = []
+# Extract all list items (stats on the page)
+for li in soup.find_all("li"):
+    text = li.get_text(strip=True)
+    
+    # Split key and value
+    parts = text.rsplit(" ", 1)
+    if len(parts) == 2:
+        key, value = parts
+        data[key] = value
+    else:
+        data[text] = None
 
-# Check if the table was found before processing
-if table:
-    # Iterate over each row in the table (skipping the header row)
-    for row in table.find_all('tr')[1:]:
-        cols = row.find_all('td')
-        if len(cols) > 1 and cols[0].find('a'):
-            name = cols[0].get_text(strip=True)
-            link = 'https://archive.ics.uci.edu' + cols[0].find('a')['href']
-            dataset_names.append(name)
-            dataset_links.append(link)
-else:
-    print("Dataset table not found on the page.")
+# Extract main stat blocks (like Research Expenditures etc.)
+headers = soup.find_all(["h2","h3","h4"])
+for header in headers:
+    next_tag = header.find_next()
+    if next_tag and next_tag.name == "p":
+        data[header.text.strip()] = next_tag.text.strip()
 
-# Create a DataFrame from the extracted data
-df = pd.DataFrame({
-    'Dataset Name': dataset_names,
-    'URL': dataset_links
-})
+# Save as JSON
+with open("./data/bu_stats.json", "w") as f:
+    json.dump(data, f, indent=4)
 
-# Convert the DataFrame to JSON format
-json_data = df.to_json(orient='records', lines=True)
-
-# Save the JSON data to a file
-with open('uci_datasets.json', 'w') as f:
-    f.write(json_data)
-
-print("JSON file 'uci_datasets.json' has been created.")
+print("Data saved to bu_stats.json")
