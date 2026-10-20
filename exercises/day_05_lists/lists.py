@@ -1,167 +1,136 @@
 # Exercises: Level 1
-#Declare an empty list
-import sys
-import os
-
-sys.path.append(os.path.abspath('data/'))
-import countries as countries_list
-
-
+#1. Declare an empty list
 empty_list = []
 
-#Declare a list with more than 5 items
-my_list = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig']
+#2. Declare a list with more than 5 items
+fruits = ['apple', 'banana', 'orange', 'grape', 'mango']
 
-#Find the length of your list
-print(len(my_list))
+#3. Find the length of your list
+print(len(fruits))
 
-#Get the first item, the middle item and the last item of the list
-first_item = my_list[0]
-middle_item = my_list[len(my_list) // 2]
-last_item = my_list[-1]
-print(f"First item: {first_item}, Middle item: {middle_item}, Last item: {last_item}")
+#4. Get the first item, the middle item and the last item of the list
+print(fruits[0])  # First item
+print(fruits[len(fruits)//2])  # Middle item
+print(fruits[-1])  # Last item
 
-#Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
-mixed_data_types = ['John Doe', 30, 5.9, 'Single', 'Via Gustavo Modena, 36, 20129 Milan, Italy']
+#5. Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
+mixed_data_types = ['John', 25, 5.8, 'Single', '123 Main St']
 
-#Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
+#6. Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
 it_companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
 
-#Print the list using print()
+#7. Print the list using print()
 print(it_companies)
 
-#Print the number of companies in the list
+#8. Print the number of companies in the list
 print(len(it_companies))
 
-#Print the first, middle and last company
-first_company = it_companies[0]
-middle_company = it_companies[len(it_companies) // 2]
-last_company = it_companies[-1]
-print(f"First company: {first_company}, Middle company: {middle_company}, Last company: {last_company}")
+#9. Print the first, middle and last company
+print(it_companies[0])  # First company
+print(it_companies[len(it_companies)//2])  # Middle company
+print(it_companies[-1])  # Last company
 
-#Print the list after modifying one of the companies
+#10. Print the list after modifying one of the companies
 it_companies[0] = 'Meta'
 print(it_companies)
 
-#Add an IT company to it_companies
+#11. Add an IT company to it_companies
 it_companies.append('Tesla')
-print(it_companies)
 
-#Insert an IT company in the middle of the companies list
-it_companies.insert(len(it_companies) // 2, 'Netflix')
-print(it_companies)
+#12. Insert an IT company in the middle of the companies list
+it_companies.insert(len(it_companies)//2, 'Apple')
 
-#Change one of the it_companies names to uppercase (IBM excluded!)
-it_companies[3] = it_companies[3].upper()
-print(it_companies)
+#13. Change one of the it_companies names to uppercase (IBM excluded!)
+it_companies[5] = it_companies[5].upper()
 
-#Join the it_companies with a string '#;  '
-joined_companies = '#;  '.join(it_companies)
-print(joined_companies)
+#14.Join the it_companies with a string '#;  '
+print('#;  '.join(it_companies))
 
-#Check if a certain company exists in the it_companies list.
-print('Google' in it_companies)
+#15. Check if a certain company exists in the it_companies list
+company_to_check = 'Tesla'
+if company_to_check in it_companies:
+    print(f"{company_to_check} exists in the list.")
+else:
+    print(f"{company_to_check} does not exist in the list.")
 
-#Sort the list using sort() method
+#16. Sort the list using sort() method
 it_companies.sort()
 print(it_companies)
 
-#Reverse the list in descending order using reverse() method
-it_companies.reverse()
+#17.Reverse the list in descending order using reverse() method
+it_companies.sort(reverse=True)
+print(it_companies)
 
-#Slice out the first 3 companies from the list
-it_companies[:3]
+#18. Slice out the first 3 companies from the list
+first_three_companies = it_companies[:3]
 
-#Slice out the last 3 companies from the list
-it_companies[-3:]
+#19. Slice out the last 3 companies from the list
+last_three_companies = it_companies[-3:]
 
-#Slice out the middle IT company or companies from the list
+#20. Slice out the middle IT company or companies from the list
 middle_index = len(it_companies) // 2
 if len(it_companies) % 2 == 0:
     middle_companies = it_companies[middle_index - 1:middle_index + 1]
-else:    middle_companies = it_companies[middle_index:middle_index + 1]
+else:
+    middle_companies = [it_companies[middle_index]]
 
-#Remove the first IT company from the list
+#21. Remove the first IT company from the list
 it_companies.pop(0)
 
-# Remove the middle IT company or companies from the list
+#22. Remove the middle IT company or companies from the list
 if len(it_companies) % 2 == 0:
     del it_companies[middle_index - 1:middle_index + 1]
-else:    del it_companies[middle_index]
+else:
+    del it_companies[middle_index]
 
-#Remove the last IT company from the list
-it_companies.pop(-1)
+#23. Remove the last IT company from the list
+it_companies.pop()
 
-#Remove all IT companies from the list
-it_companies.clear()
-print('After clearing:', it_companies)
+#24. Remove all IT companies from the list
+it_companies.clear()  
 
-#Destroy the IT companies list
+#25. Destroy the IT companies list
 del it_companies
 
-#Join the following lists:
-
-front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
-back_end = ['Node','Express', 'MongoDB']
-
-deveops = front_end + back_end
-print(deveops)
-#After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack, then insert Python and SQL after Redux.
-full_stack = deveops.copy()
-full_stack.insert(full_stack.index('Redux') + 1, 'Python')
-full_stack.insert(full_stack.index('Python') + 1, 'SQL')
-print(full_stack)
 # Exercises: Level 2
-
-# The following is a list of 10 students ages:
+#26. The following is a list of 10 students ages:
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
-#Sort the list and find the min and max age
+# Sort the list and find the min and max age
 ages.sort()
-min_age = min(ages)
-max_age = max(ages)
-print(f"Min age: {min_age}, Max age: {max_age}")
-#Add the min age and the max age again to the list
-ages.append(min_age)
+min_age = ages[0]
+max_age = ages[-1]
+# Add the min age and the max age again to the list
 ages.append(max_age)
-print(ages)
-#Find the median age (one middle item or two middle items divided by two)
-ages.sort()
-n = len(ages)
-if n % 2 == 0:
-    median_age = (ages[n // 2 - 1] + ages[n // 2]) / 2
-else:    median_age = ages[n // 2]
-print(f"Median age: {median_age}")
-#Find the range of the ages (max minus min)
-age_range = max_age - min_age
-#Compare the value of (min - average) and (max - average), use abs() method
+ages.append(min_age)
+# Find the median age (one middle item or two middle items divided by two)
+if len(ages) % 2 == 0:
+    median_age = (ages[len(ages)//2 - 1] + ages[len(ages)//2]) / 2
+else:
+    median_age = ages[len(ages)//2]
+print(median_age)
+# Find the average age (sum of all items divided by their number )
 average_age = sum(ages) / len(ages)
+print(average_age)
+# Find the range of the ages (max minus min)
+range_ages = max_age - min_age
+# Compare the value of (min - average) and (max - average), use abs() method
 min_diff = abs(min_age - average_age)
 max_diff = abs(max_age - average_age)
-print(f"Min - Average: {min_diff}, Max - Average: {max_diff}")
-print('_' * 50)
-#Find the middle country(ies) in the countries list
-
-countries_list.countries.sort()
-n = len(countries_list.countries)
-if n % 2 == 0:
-    middle_countries = countries_list.countries[n // 2 - 1:n // 2 + 1]
-else:    middle_countries = countries_list.countries[n // 2]
-print(f"Middle country(ies): {middle_countries}")
-
-#Divide the countries list into two equal lists if it is even if not one more country for the first half.
-countries_list.countries.sort()
-n = len(countries_list.countries)
-if n % 2 == 0:
-    first_half = countries_list.countries[:n // 2]
-    second_half = countries_list.countries[n // 2:]
-else:    
-    first_half = countries_list.countries[:n // 2 + 1]
-    second_half = countries_list.countries[n // 2 + 1:]
-print(f"First half: {first_half}")
-print(f"Second half: {second_half}")
-
-#['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark'].Unpack the first three countries and the rest as scandic countries.
+print(min_diff)
+print(max_diff)
+# Divide the countries list into two equal lists if it is even if not one more country for the first half.
 countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
-first, second, third, *scandic_countries = countries
-print(f"First three countries: {first}, {second}, {third}")
-print(f"Scandic countries: {scandic_countries}")
+if len(countries) % 2 == 0:
+    first_half = countries[:len(countries)//2]
+    second_half = countries[len(countries)//2:]
+else:
+    first_half = countries[:len(countries)//2 + 1]
+    second_half = countries[len(countries)//2 + 1:]
+print(first_half)
+print(second_half)
+# Unpack the first three countries and the rest as scandic countries.
+country1, country2, country3, *scandic_countries = countries
+print(country1)
+print(country2)
+print(country3)
+print(scandic_countries)
